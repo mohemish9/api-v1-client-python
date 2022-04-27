@@ -2,7 +2,7 @@ from .exceptions import *
 import sys
 
 BASE_URL = "https://blockchain.info/"
-TIMEOUT = 10
+TIMEOUT = 900
 
 py_version = sys.version_info[0]
 if py_version >= 3:
